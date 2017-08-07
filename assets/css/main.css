@@ -1,0 +1,340 @@
+*{
+	padding: 0;
+	margin:0 ;
+}
+body{
+	font-family: 'Raleway';
+}
+.navbar{
+	background-color: transparent;
+	border:none;
+}
+.navbar-default .navbar-nav>li>a{
+	color: whitesmoke;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #623AA2;
+}
+.profile{
+	background-size: cover;
+	background-repeat: none;
+	background-position: center center;
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/nuevo4.jpg);
+}
+.logo{
+	width: 20rem;
+	margin-top: 10rem;
+}
+.title{
+	font-family: 'Raleway';
+	color: white;
+	font-weight: 400;
+	margin-top: 15rem;
+	font-size: 50px;
+}
+
+.nombre{
+	margin-top: 7rem;
+}
+
+.subtitle{
+	font-family: 'Raleway';
+	color: whitesmoke;
+	font-weight: 600;
+	width: 30rem;
+}
+.bajadaperfil{
+	font-family: 'Raleway';
+	color: whitesmoke;
+	font-weight: 400;
+	width: 30rem;
+}
+
+.more{
+	background-color: #623AA2;
+	margin-top: 2rem;
+	padding: 5px;
+    width:15rem;
+    display: block;
+    height: auto;
+    color:#fff;
+    text-decoration: none;
+    border:1px solid #623AA2;
+    border-radius:3px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+}
+.more:hover{
+	background-color: rgba(98, 58,162, 0.4);
+	color: white;
+}
+
+a:link{
+	text-decoration: none;
+	list-style: none;
+}
+
+/*ABOUT ME*/
+.aboutme{
+	width: 100%;
+	color:#ff9899;
+}
+
+.titulossec{
+	font-family: 'Raleway';
+	color: whitesmoke;
+	font-weight: 700;
+	color: #E96D71;
+	margin-top: 10rem;
+}
+
+.sinpadding [class*="col-"] {
+    padding: 0;
+}
+
+.about1{
+	background-color: #623AA2;
+	height: 100vh;
+}
+.about2{
+	background-color: white;
+	height: 100vh;
+
+}
+.abouttext{
+	margin-top: 40%;
+}
+.titleabout{
+	text-align: center;
+	color:#656464;
+	font-weight: 700;
+	margin-top: 10rem;
+}
+.paboutme{
+	color:#656464;
+	margin: 2rem 5rem;
+	font-weight: 300;
+}
+.habilidades{
+	height:100vh;
+	width:100%;
+}
+.habili{
+	background-color: #623AA2;
+	height:100vh;
+}	
+	.habilidad-one{
+		padding:50px;
+	}
+	.titleabout{
+	text-align: center;
+    color: #656464;
+    font-weight: 700;
+    margin-top: 10rem
+	}
+	.interes{
+		margin-top: 5rem;
+	}
+	.interesp{
+		margin-top: 3rem;
+		font-weight: 300;
+		color: #656464;
+	}
+	.habilidad-two{
+		background-image: url(../img/flor.jpg);
+		height: 100vh;
+		background-size: cover;
+		background-repeat: none;
+		background-position: center center;
+	}
+.programas{
+	height: 100vh;
+	width:100%;
+	background-color: white;
+}
+	.listaprograms{
+		display: flex;
+		list-style: none;
+		list-decoration:none;
+		justify-content: center;
+		padding: 50px 0 0 300px;
+		cursor: pointer;
+	}
+	.listaprograms li{
+	margin-left:40px;
+	cursor: pointer;
+	}
+	.listaprograms li a {
+		justify-content: justify-content;
+		cursor: pointer;
+	}
+	.coloredsd{
+		font-size: 60px;
+		color:white;
+		cursor: pointer;
+	}
+	.skills{
+		background-image: url(../img/work1.jpg);
+		height: 100vh;
+		background-size: cover;
+		background-repeat: none;
+		background-position: center center;
+	}
+	.skilltitle{
+		margin-top: 7rem;
+		color:white;
+	}
+	.skillp{
+		color: white;
+	}
+
+
+/*PORTAFOLIO*/
+.work{
+	padding:50px;
+	width: 100%;
+	background-color: white;
+}
+
+.titleport{
+	text-align: center;
+}
+.pwork{
+	width: 80%;
+	padding: 50px;
+	margin-left: 10%;
+}
+
+.linkex{
+	color:white;
+	font-size: 30px;
+}
+.caption-style-4{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+	.caption-style-4 li{
+		float: left;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+	.caption-style-4 li:hover .caption{
+		opacity: 1;
+	}
+	.caption-style-4 li:hover img{
+		opacity: 1;
+		transform: scale(1.15,1.15);
+		-webkit-transform:scale(1.15,1.15);
+		-moz-transform:scale(1.15,1.15);
+		-ms-transform:scale(1.15,1.15);
+		-o-transform:scale(1.15,1.15);
+	}
+	.caption-style-4 img{
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		z-index: 4;
+	}
+	.caption-style-4 .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+	}
+	.caption-style-4 img{
+		-webkit-transition:all 0.25s ease-in-out;
+		-moz-transition:all 0.25s ease-in-out;
+		-o-transition:all 0.25s ease-in-out;
+		-ms-transition:all 0.25s ease-in-out;
+		transition:all 0.25s ease-in-out;
+	}
+	.caption-style-4 .blur{
+		background-color: rgba(0,0,0,0.65);
+		height: 300px;
+		width: 400px;
+		z-index: 5;
+		position: absolute;
+	}
+	.caption-style-4 .caption-text h1{
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+	.caption-style-4 .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		width: 400px;
+		height: 300px;
+		text-align: center;
+		top:100px;
+	}
+
+footer{
+	background-color: #623AA2;
+	padding: 70px 70px 10px 70px;
+	width: 100%;
+}
+
+.titlefooter{
+	font-weight: 700;
+	color: white;
+	text-align: center;
+}
+.pfooter{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Lato';
+	font-weight: 300;
+}
+
+.listfooter{
+	display: inline-block;
+}
+.listfooter li{
+	display: inline-block;
+	margin-top: 7rem;
+	color: white;
+}
+
+.listfooter li a .iconsfooter{
+	color:white;
+	font-size: 30px;
+	margin-left: 5rem;
+}
+.listfooter li a .iconsfooter:hover{
+ color: #ee9583;
+}
+.hrcenter{
+	width: 20%;
+margin-left: 40%;
+}
+
+.final{
+	color: white;
+	width: 100%;
+	padding:0;
+}
+
+.navbar-color{
+	background-color:rgba(238,149, 131, 0.9);
+	height: 60px;
+}
+.finalfooter{
+	color:white;
+	margin-top: 5rem;
+	text-align: center;
+}

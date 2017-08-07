@@ -1,0 +1,8 @@
+@media only screen and (max-width: 800px) {
+ .nombre{
+ 	width: 40rem;
+
+ }
+ .about1, .about2{
+ 	width: 100%;
+ }

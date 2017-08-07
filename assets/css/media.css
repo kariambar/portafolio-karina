@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
  .nombre{
  	width: 40rem;
 
@@ -6,3 +6,54 @@
  .about1, .about2{
  	width: 100%;
  }
+
+ .sr-only, .icon-bar{
+ 	background-color: white;
+ 	width: 100%;
+ }
+.navbar-collapse{  
+ 	background-color: rgba(98, 58,162, 0.9);
+ 	width: 100%;
+ 	border:none;
+ 	text-align: center;
+ 	height: 100vh;
+ }
+.navbar-default .navbar-nav>li>a{
+	margin-top:5rem;
+	font-size: 20px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: white;
+	height: 6rem;
+}
+
+.caption-style-4 img{
+	width: 20rem;
+}
+
+.pwork{
+	width: 60rem;
+	padding: 1px;
+}
+
+.coloredsd{
+		font-size: 20px;
+		color:white;
+		cursor: pointer;
+	}
+
+	.listaprograms{
+		display: flex;
+		padding: 10px 0 0 10px;
+	}
+	.listaprograms li a i{
+	margin-left:0;
+}
+
+.habilidad-one{
+	background-color: whitesmoke;
+	padding:10px;
+}
+.titleabout{
+    margin-top: 5rem;
+	}

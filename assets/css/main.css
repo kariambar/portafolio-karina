@@ -13,7 +13,6 @@ body{
 	color: whitesmoke;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color: #623AA2;
 }
 .profile{
 	background-size: cover;
@@ -136,7 +135,7 @@ a:link{
 	text-align: center;
     color: #656464;
     font-weight: 700;
-    margin-top: 10rem
+    margin-top: 10rem;
 	}
 	.interes{
 		margin-top: 5rem;
@@ -330,11 +329,15 @@ margin-left: 40%;
 }
 
 .navbar-color{
-	background-color:rgba(238,149, 131, 0.9);
+	background-color: rgba(98, 58,162, 0.8);
 	height: 60px;
 }
 .finalfooter{
 	color:white;
 	margin-top: 5rem;
 	text-align: center;
+}
+
+.p-color{
+	color: red;
 }

@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px) {
  .nombre{
  	width: 30rem;
- 	padding-top: 10rem;
+ 	padding-top: 6rem;
 
  }
  .about1, .about2{
@@ -52,20 +52,21 @@
 	padding: 1px;
 }
 
-.coloredsd{
-		font-size: 10px;
-		color:white;
-		cursor: pointer;
-		margin-left: 0;
-	}
 
 	.listaprograms {
+		padding: 1px 1px 1px 2px;
 	}
 	.listaprograms li{
-		margin-left: 1rem;
+		margin-left: -20px;
 	}
 	.listaprograms li a {
-		padding: 0 50px 0 1px;
+		justify-content: justify-content;
+		margin-left:0;
+
+}
+.listaprograms li a .coloredsd {
+	font-size: 30px;
+	margin-left:0;
 }
 
 .habilidad-one{
@@ -80,8 +81,8 @@
 }
 .listfooter li a .iconsfooter{
 	color: white;
-	font-size: 10px;
+	font-size: 15px;
 	margin-left: 1rem;
-}	
+	}	
 
 }

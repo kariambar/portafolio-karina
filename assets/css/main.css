@@ -142,6 +142,8 @@ a:link{
 }	
 	.habilidad-one{
 		padding:50px;
+		background-color: whitesmoke;
+		height: 100vh;
 	}
 	.titleabout{
 	text-align: center;
@@ -173,13 +175,12 @@ a:link{
 	.listaprograms{
 		display: flex;
 		list-style: none;
-		list-decoration:none;
 		justify-content: center;
 		padding: 50px 0 0 300px;
 		cursor: pointer;
 	}
 	.listaprograms li{
-	margin-left:40px;
+	margin-left:50px;
 	cursor: pointer;
 	}
 	.listaprograms li a {
@@ -187,7 +188,7 @@ a:link{
 		cursor: pointer;
 	}
 	.coloredsd{
-		font-size: 60px;
+		font-size: 45px;
 		color:white;
 		cursor: pointer;
 	}

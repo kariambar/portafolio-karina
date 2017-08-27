@@ -125,7 +125,7 @@ a:link{
 	text-align: center;
 	color:#656464;
 	font-weight: 700;
-	padding-top: 6rem;
+	padding-top: 12rem;
 }
 .paboutme{
 	color:#656464;
@@ -161,7 +161,7 @@ a:link{
 		letter-spacing: 2px;
 	}
 	.habilidad-two{
-		background-image: url(../img/flor.jpg);
+		background-image: url(../img/lapiz.jpg);
 		height: 100vh;
 		background-size: cover;
 		background-repeat: none;
@@ -184,7 +184,6 @@ a:link{
 	cursor: pointer;
 	}
 	.listaprograms li a {
-		justify-content: justify-content;
 		cursor: pointer;
 	}
 	.coloredsd{
@@ -200,15 +199,19 @@ a:link{
 		background-position: center center;
 	}
 	.skilltitle{
-		margin-top: 7rem;
+		margin-top: 10rem;
 		color:white;
+		font-weight: 700;
 	}
 	.skillp{
+		margin-top: 2rem;
 		color: white;
 		letter-spacing: 2px;
 	}
 
-
+	.skill-programs{
+		margin-top: 5rem;
+	}
 /*PORTAFOLIO*/
 .work{
 	padding:50px;
@@ -218,16 +221,16 @@ a:link{
 
 .titleport{
 	text-align: center;
-	color:#656464;
+	color: #623AA2;
 	font-weight: 700;
-	padding-top: 6rem;
+	padding-top: 3rem;
 }
 .pwork{
  text-align: center;
  font-size: 15px;
  color:#656464;
- padding: 10px;
- letter-spacing: 2px;
+ padding: 5px;
+ letter-spacing: px;
 }
 
 .linkex{
@@ -364,8 +367,8 @@ margin-left: 40%;
 }
 .finalfooter{
 	color:white;
-	margin-top: 5rem;
+	margin-top: 18rem;
 	text-align: center;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	font-weight: 200;
 }

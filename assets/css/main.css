@@ -199,7 +199,7 @@ a:link{
 		background-position: center center;
 	}
 	.skilltitle{
-		margin-top: 10rem;
+		margin-top: 15rem;
 		color:white;
 		font-weight: 700;
 	}
@@ -308,11 +308,11 @@ a:link{
 		top:100px;
 	}
 
-footer{
+.final-app{
 	background-color: #623AA2;
 	padding: 70px 70px 10px 70px;
 	width: 100%;
-	height: 90vh;
+	height: 80vh;
 }
 
 .titlefooter{
@@ -365,10 +365,13 @@ margin-left: 40%;
 	color:white;
 	height: 60px;
 }
+footer{
+	background-color: #6018DC;
+}
 .finalfooter{
 	color:white;
-	margin-top: 18rem;
 	text-align: center;
 	letter-spacing: 1.5px;
 	font-weight: 200;
+	font-size: 11px;
 }

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 668px) {
 	 .nombre{
 	 	width: 30rem;
 	 	padding-top: 6rem;
@@ -10,7 +10,6 @@
 	.abouttext{
 		padding-top: 10rem;
 	}
-
 	 .sr-only, .icon-bar{
 	 	background-color: white;
 	 	width: 100%;
@@ -20,11 +19,19 @@
 	 	width: 100%;
 	 	border:none;
 	 	text-align: center;
-	 	height: 100vh;
+	 	height: 150vh;
 	 	color:white;
 	 }
 	 .navbar-color {
 		height: 100vh;
+	}
+	.bajadaperfil-movil{
+	font-family: 'Raleway';
+	font-weight: 400;
+	color:  #6018DC;
+	width: 30rem;
+	font-size: 30px;
+	margin-top: 40rem;
 	}
 	.navbar-default .navbar-nav>li>a{
 		margin-top:5rem;
@@ -37,7 +44,7 @@
 	}
 	.caption-style-4 img{
 		width: 25rem;
-		margin-left: 10px;
+		margin-left: 7px;
 	}
 
 	.interes{
@@ -48,30 +55,144 @@
 	}
 	.habilidad-two{
 		padding: 0;
+		height: 50vh;
+		background-attachment: fixed;
 	}
 	.pwork{
 		padding: 1px;
 	}
+	.final-app{
+		height: 50vh;
+	}
 	.skill-programs{
-		width: 70%;
+		width: 80%;
 	}
 	.skilltitle{
-		margin-top: 15rem;
+		padding-top: 7rem;
 	}
 	.habilidad-one{
 		background-color: whitesmoke;
 		padding:10px;
 	}
 	.titleabout{
-	    margin-top: 5rem;
+	    width: 90%;
 		}
+	.listfooter{
+		margin-left: -1rem;
+	}
+	.listfooter li{
+		margin-left: 2rem;
+		width: 10%;
+	}		
 	.listfooter li a .iconsfooter{
 		color: white;
 		font-size: 10px;
 		margin-left: 1rem;
 		}	
 	#contacto{
-		height: 110vh;
+		height: 80vh;
+	}
+
+}
+
+@media only screen and (min-width:670px) and (max-width:992px){
+	*{
+		padding: 0;
+		margin:0 ;
+	}
+	.nombre{
+	 	width: 30rem;
+	 	padding-top: 15rem;
+	 }
+	.title{
+		padding-top: 8rem;
+	}
+	 .about1, .about2{
+	 	width: 100%;
+	 	height: 50vh;
+	 	padding: 0;
+	 }
+	 .paboutme{
+	 	width: 60%;
+	 	padding-left: 100px;
+	 }
+	.abouttext{
+		padding-top: 10rem;
+	}
+	.bajadaperfil-movil{
+	font-family: 'Raleway';
+	font-weight: 400;
+	color:  #6018DC;
+	width: 30rem;
+	font-size: 30px;
+	margin-top: 94%;
+	}
+	.navbar-default .navbar-nav>li>a{
+		margin-top:5rem;
+		font-size: 20px;
+		color: white;
+	}
+	.navbar-right{
+		margin-left: 1rem;
+		letter-spacing: 0.1px;
+	}
+	.container-a4{
+	margin-left: 40%;
+	}
+	.caption-style-4 li{
+		float: left;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+	.caption-style-4 img{
+		margin: 0px;
+		padding: 0px;
+		float: left;
+	}
+
+	.interes{
+		width: 40%;
+	}
+	.habilidad-one{
+		height: 100vh;
+	}
+	.habilidad-two{
+		padding: 0;
+	}
+	.pwork{
+		padding: 1px;
+	}
+	.final-app{
+		height: 50vh;
+	}
+	.skill-programs{
+		width: 50%;
+	}
+	.skilltitle{
+		padding-top: 3rem;
+	}
+	.habilidad-one{
+		background-color: whitesmoke;
+		padding:10px;
+	}
+	.titleabout{
+	    width: 90%;
+		}
+	.listfooter{
+		margin-left: -1rem;
+	}
+	.listfooter li{
+		margin-left: 2rem;
+		width: 10%;
+	}		
+	.listfooter li a .iconsfooter{
+		color: white;
+		font-size: 10px;
+		margin-left: 1rem;
+		}	
+	#contacto{
+		height: 80vh;
 	}
 
 }
